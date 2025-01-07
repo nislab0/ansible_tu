@@ -12,3 +12,4 @@
           - libapache2-mod-php
         update_cache: yes
         state: latest
+      when: ansible_distribution == "Ubuntu"
